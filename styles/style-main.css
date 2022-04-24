@@ -1,1 +1,176 @@
-ф
+/* 202021 - черный
+3F3F40 - темно-серый
+404043 - серый
+FFFFFF - белый
+E89B2B - оранжевый
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    --mainColor: #ffff;
+    --accentColor: #E89B2B;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.navigation2 {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    color: var(--mainColor);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto; 
+    
+}
+
+.navigation {
+    background-color: rgba(18, 17, 17, 0.82);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+.navigation-name {
+    width: calc(100% / 2);
+    font-weight: 500;
+    font-size: 26px;
+}
+
+p span {
+    color: var(--mainColor);
+    font-weight: 200;
+    font-size: 22px;
+}
+
+.discount-text2 span {
+    color: var(--accentColor);
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 5%;
+}
+
+.navigation-item {
+    width: calc(100% / 6);
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.discount-photophone {
+    background-image: url("images/background.png");
+    background-position: top;
+    background-size: cover;
+   
+}
+
+.hero-section {
+    
+    display: flex;
+    
+}
+
+.circle {
+    margin-top: 27%;
+    margin-left: 5%;
+ 
+    
+}
+
+.circle-img {
+    width: 18px;
+    height: 85px;
+}
+
+.overlay {
+ 
+    background-color: rgba(0, 0, 0, 0.637);
+    height: 100%;
+    width: calc(100% / 2.8);
+    margin-left: 13.5%;
+}
+
+.discount-section {
+    display: flex;
+  
+    flex-direction: column;
+}
+
+.discount {
+    margin-top: 10%;
+}
+
+.discount-name1{
+    width: 100%; 
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--mainColor); 
+    padding-left: 5%;
+    margin-top: 8%;
+ }
+
+ .discount-text1 {
+    width: 70%; 
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--mainColor);
+    margin-top: 3%;
+    padding-left: 5%;
+}
+
+.buttons {
+    display: flex;
+    padding-left: 5%;
+    margin-top: 3%;
+}
+
+.button1, .button2 {
+    margin-top: 1%;
+    margin-bottom: 10%;
+    padding: 5px 10px 3px 10px;
+    color: var(--mainColor);
+    border: 1px solid #fafafa67;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.button2 {
+    color: var(--accentColor);
+}
+
+.discount-name2 {
+    margin-top: 2%;
+    color: var(--mainColor);
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 5%;
+}
+
+.discount-text2 {
+    width: 70%; 
+    font-size: 18px;
+    font-weight: 200;
+    color: var(--mainColor);
+    margin-top: 3%;
+    padding-left: 5%;
+    margin-bottom: 15%;
+}
+
+.border {
+    border-bottom: 5px var(--accentColor) solid;
+   width: 100%;
+}
+
