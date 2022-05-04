@@ -309,3 +309,218 @@ p span {
     width: 100%;
   
 }
+
+.ourStudios-title {
+    font-size: 52px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.199);
+    padding-left: 20%;
+    padding-top: 10%;
+  
+    padding-bottom: 5%;
+  
+}
+
+.ourStudios-title2 {
+    color: #ffff;
+    font-size: 26px;
+    padding-left: 16%;
+    top: 245%;
+    position: absolute;
+   
+}
+
+.ourStudios-section {
+    background-image: url("images/background2.png");
+    background-position: top;
+    background-size: cover;
+   
+}
+
+.ourStudios-content {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.ourStudios-item {
+    background-color: rgba(0, 0, 0, 0.637);
+    width: calc(100% / 12 * 3.3);
+    margin: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.item-place {
+    color: var(--mainColor);
+    font-size: 22px;
+    
+}
+
+.item-schedule {
+    color: var(--accentColor);
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    line-height: 1.2;
+}
+
+.item-schedule2 {
+    padding-bottom: 12%;
+}
+
+.icon-telephone, .icon-location {
+    width: 18px;
+}
+
+.item-telephone {
+    display: flex;
+    padding-top: 15%;
+}
+
+.telephone {
+    color: var(--mainColor);
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 2%;
+    padding-top: 0.6%;
+}
+
+.item-address {
+    color: var(--mainColor);
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.address {
+    padding-left: 2%;
+    padding-top: 3%;
+}
+
+.subscriptions-section {
+    background-color: #202021;
+}
+
+.subscriptions-title {
+    font-size: 52px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.199);
+    padding-left: 20%;
+    padding-top: 10%;
+  
+    padding-bottom: 5%;
+  
+}
+
+.subscriptions-title2 {
+    color: var(--mainColor);
+    font-size: 26px;
+    padding-left: 21%;
+    top: 346%;
+    position: absolute;
+   
+}
+
+.banner-content {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.banner {
+    background-image: url(images/Rectangle50.png);
+    background-position: top;
+    background-size: cover;
+    padding-bottom: 1%;
+}  
+
+.banner-title {
+    color: var(--mainColor);
+    font-size: 42px;
+    padding-left: 9.5%;
+    padding-top: 2%;
+}
+
+.banner-button {
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0.5%;
+    margin-left: 9.5%;
+    margin-top: 5%;
+  
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--mainColor);
+    background-color: var(--accentColor);
+    width: calc(100% / 12 * 1.5);
+    
+}
+
+.subscriptions-border {
+    border-bottom: 5px var(--accentColor) solid;
+    width: 100%;
+    
+}
+
+.rates {
+    padding-top: 5%;
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.items-rate {
+    
+    width: calc(100% / 12 * 6);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-right: 2%;
+}
+
+.item1-rate {
+    background-image: url(images/Rectangle45.png);
+}
+
+.item2-rate {
+    background-image: url(images/Rectangle51.png);
+}
+
+.item3-rate {
+    background-image: url(images/Rectangle53.png);
+}
+
+.content-rate {
+    background-color: rgba(0, 0, 0, 0.637);
+    border: 1px solid var(--accentColor);
+}
+
+.name-tariff {
+    color: var(--mainColor);
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 5%;
+    
+    display: inline-block;
+    border-bottom: 1px solid var(--accentColor);
+}
+
+.name-rate {
+    text-align: center;
+}
+
