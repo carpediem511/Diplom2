@@ -596,3 +596,112 @@ span {
     font-size: 18px;
     padding-top: 5%;
 }
+
+@media (max-width: 1024px) {
+    .navigation-name, .contacts {
+        padding-left: 1%;
+    }
+
+    .discount-name1 {
+        font-size: 48px;
+    }
+
+    .circle {
+        margin-top: 40%;
+    }
+
+    .directions-title2 {
+        top: 112%;
+        padding-left: 22%;
+    }
+
+    .direction-name {
+        font-size: 18px;
+    }
+
+    .direction-button1 {
+        margin-left: 3%;
+    }
+
+    .direction-button2 {
+        margin-left: 0%;
+    }
+
+    .ourStudios-title2 {
+        padding-left: 22%;
+    }
+
+    .item-schedule {
+        font-size: 16px;
+    }
+
+    .item-schedule3 {
+        padding-bottom: 12%;
+    }
+
+    .telephone {
+        font-size: 18px;
+    }
+
+    .icon-location {
+        width: 16px;
+        height: 20px;
+    }
+
+    .address {
+        font-size: 16px;
+    }
+
+    .subscriptions-title {
+        padding-left:18%;
+    }
+
+    .subscriptions-title2 {
+        padding-left: 20%;
+        top: 336%;
+    }
+
+    .button-rate {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .price-rate3 {
+        padding-top: 16%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navigation2 {
+        flex-wrap: wrap;
+    }
+
+    .navigation-name {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navigation-item {
+        font-size: 12px;
+        padding-right: 7%;
+        width: calc(100% / 5);
+        padding-left: 2%;
+    }
+
+    .circle {
+        margin-top: 30%;
+    }
+
+    .discount-photophone {
+        background-position: left;
+    }
+
+    .overlay {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .discount-text1, .discount-text2 {
+        font-size: 16px;
+    }
+
