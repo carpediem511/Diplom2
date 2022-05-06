@@ -415,7 +415,7 @@ p span {
     font-size: 52px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.199);
-    padding-left: 20%;
+    padding-left: 27%;
     padding-top: 10%;
   
     padding-bottom: 5%;
@@ -425,7 +425,7 @@ p span {
 .subscriptions-title2 {
     color: var(--mainColor);
     font-size: 26px;
-    padding-left: 21%;
+    padding-left: 28%;
     top: 346%;
     position: absolute;
    
@@ -481,6 +481,7 @@ p span {
     width: 100%;
     margin: 0 auto;
     justify-content: center;
+    padding-bottom: 5%;
 }
 
 .items-rate {
@@ -579,3 +580,83 @@ span {
     margin-right: 8%;
 }
 
+.footer-section {
+    background-image: url(images/background2.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.footer-overlay {
+ 
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 100%;
+  
+}
+
+.footer-content {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    color: var(--mainColor);
+    
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5%;
+}
+
+.social-media-name {
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--mainColor);
+    padding-right: 1%;
+}
+
+.footer-icon {
+    width: 27px;
+    height: 17px;
+    padding-right: 1%;
+}
+
+.contacts-name-color, .contact-name {
+    color: var(--mainColor);
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.contact-name {
+    padding-bottom: 7%;
+}
+
+.contacts-name {
+    font-size: 28px;
+    padding-bottom: 7%;
+}
+
+.contacts-item {
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 2%;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7%;
+    
+}
+
+.contacts-phone {
+    padding-right: 8.5%;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 4%;
+    line-height: 1.4;
+}
+
+.item-contact-address {
+    font-size: 18px;
+    padding-top: 5%;
+}
