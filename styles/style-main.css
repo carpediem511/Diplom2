@@ -524,3 +524,58 @@ p span {
     text-align: center;
 }
 
+.conditions-rate, .validity-rate {
+    color: var(--mainColor);
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+}
+
+span {
+    color: var(--accentColor);
+    font-weight: 400;
+}
+
+.price-rate {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    padding-top: 16%;
+}
+
+.price-rate3 {
+    padding-top: 10%;
+}
+
+
+.cost {
+    color: var(--mainColor);
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 3%;
+
+}
+
+.cost-color {
+    color: var(--accentColor);
+    font-size: 32px;
+    font-weight: 600;
+     
+}
+
+.button-rate {
+    
+    color: var(--mainColor);
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    background-color: var(--accentColor);
+    border: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    margin-right: 8%;
+}
+
