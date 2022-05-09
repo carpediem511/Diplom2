@@ -159,7 +159,6 @@ p span {
 
 .main-section {
     background-color: #202021;
-    
 }
 
 .content, .timetable, .other {
@@ -219,14 +218,10 @@ li span, .text span {
 .image {
     width: calc(100% / 12 * 6);
     object-fit: contain;
-   
 }
 
 .picture {
-   
     margin-top: -50px;
-    
-   
 }
 
 .timetable {
@@ -242,12 +237,10 @@ li span, .text span {
     border: 1px solid var(--accentColor);
     margin-bottom: 2%;
     margin-right: 1%;
-    
 }
 
 .day {
     width: calc(100% / 12 *6);
-   
 }
 
 .time {
@@ -259,13 +252,11 @@ li span, .text span {
     padding-left: 1%;
     padding-top: 1%;
     padding-bottom: 0.5%;
-   
 }
 
 .button {
     width: calc(100% / 12 *4);
     font-size: 28px;
-    
     text-align: center;
     font-weight: 400;
     background-color: var(--accentColor);
@@ -273,7 +264,6 @@ li span, .text span {
     padding-left: 1%;
     padding-top: 2%;
     padding-bottom: 1%;
-  
 }
 
 .banner-content {
