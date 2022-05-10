@@ -399,3 +399,202 @@ li span, .text span {
     font-size: 18px;
     padding-top: 5%;
 }
+
+@media (max-width: 1024px) {
+    .navigation-name, .contacts {
+        padding-left: 1%;
+    }
+
+    .discount-name1 {
+        font-size: 48px;
+    }
+
+    .circle {
+        margin-top: 40%;
+    }
+
+    .title2 {
+        padding-left: 150px;
+        top: 110px;
+    
+    }
+
+    .text {
+        padding-left: 2%;
+    }
+
+    .timetable {
+        margin-left: 2%;
+    }
+
+    .timetable-item {
+        font-size: 28px;
+        width: calc(100% / 12 *6 - 15px);
+    }
+
+    .day {
+        width: calc(100% / 12 *5);
+    }
+
+    .time {
+        margin-right: 2%;
+    }
+
+    .button {
+        width: calc(100% / 12 *5); 
+    }
+
+    .other-item {
+        margin-right: 2%;
+    }
+
+    
+   
+}
+
+    @media (max-width: 768px) {
+       
+
+        .navigation2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: end;
+            flex-grow: 1;
+        }
+
+     
+
+        .discount-photophone {
+            background-position: 70%;
+        }
+
+        .discount-name1 {
+            font-size: 42px;
+        }
+
+        .discount-text1 {
+            font-size: 16px;
+        }
+
+        .buttons {
+            font-size: 18px;
+        }
+
+        .discount-text2 {
+            font-size: 16px;
+        }
+
+      
+
+        .contacts {
+            flex-wrap: wrap;
+        }
+
+        .title2 {
+            padding-left: 120px;
+            top: 90px;
+        }
+
+        .timetable-item {
+            width: 90%;
+            
+        }
+
+        .timetable {
+            justify-content: center;
+        }
+
+        .banner-button {
+            width: calc(100% / 12 * 2);
+}
+
+
+        }
+    }
+
+    @media (max-width: 600px) {
+        .navigation-name {
+            width: 100%;
+            margin-left: 25%;
+        }
+
+        .navigation2 {}
+
+        p.navigation-name {
+            width: 100%;
+            padding-left: 50%;
+        }
+
+        .navigation-item {
+            width: calc(100% / 3);
+            padding-top: 5%;
+            padding-left: 2%;
+        }
+
+        .circle {
+            margin-top: 20%;
+        }
+
+        .overlay {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        
+        .discount-text2 span {
+            padding-left: 0;
+        }
+
+        .title2 {
+            padding-left: 200px;
+            top: 160px;
+        }
+
+        
+
+        .banner {
+            background-position: 90%;
+        }
+
+        .banner-title {
+            font-size: 24px;
+            padding-left: 2%;
+        }
+
+        .banner-button {
+            font-size: 16px;
+            width: calc(100% / 4);
+            text-align: center;
+            padding-top: 2%;
+            margin-bottom: 2%;
+        }
+
+      
+
+        .social-media {
+            padding-bottom: 5%;
+         
+        }
+
+       
+
+        .social-media-name {
+            font-size: 16px;
+        }
+
+        .contacts-name {
+            font-size: 24px;
+        }
+
+        .contacts-item {
+            font-size: 20px;
+        }
+
+        .contact-name {
+      
+        }
+
+        .contacts-phone {
+            padding-top: 7%;
+        }
+    }

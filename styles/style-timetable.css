@@ -184,8 +184,8 @@ p span {
 .title2 {
     color: var(--mainColor);
     font-size: 26px;
-    padding-left: 280px;
-    top: 160px;
+    padding-left: 210px;
+    top: 130px;
     position: absolute;
 }
 
@@ -194,30 +194,52 @@ p span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .backgroung1 {
-    background-image: url(images/Rectangle9-2.png);
+  
+    background: linear-gradient(to top, #20202170 100%, transparent 100%), url(images/Rectangle9-2.png);
+    height: 150px;
+    padding-top: 39%;
+   
+   
 }
 
 .backgroung2 {
-    background-image: url(images/Rectangle7-2.png);
+ 
+    background: linear-gradient(to top, #20202170 100%, transparent 100%), url(images/Rectangle7-2.png);
+    height: 150px;
+    padding-top: 39%;
+    
 }
 
 .backgroung3 {
-    background-image: url(images/Rectangle11-2.png);
+   
+    background: linear-gradient(to top, #20202170 100%, transparent 100%), url(images/Rectangle11-2.png);
+    height: 150px;
+    padding-top: 39%;
 }
 
 .backgroung4 {
-    background-image: url(images/Rectangle8-2.png);
+
+    background: linear-gradient(to top, #20202170 100%, transparent 100%), url(images/Rectangle8-2.png);
+    height: 150px;
+    padding-top: 39%;
 }
 
 .backgroung5 {
-    background-image: url(images/Rectangle10-2.png);
+ 
+    background: linear-gradient(to top, #20202170 100%, transparent 100%), url(images/Rectangle10-2.png);
+    height: 150px;
+    padding-top: 39%;
 }
 
 .backgroung6 {
-    background-image: url(images/Rectangle6-2.png);
+   
+    background: linear-gradient(to top, #20202170 100%, transparent 100%), url(images/Rectangle6-2.png);
+    height: 150px;
+    padding-top: 39%;
 }
 
 .general {
@@ -232,19 +254,24 @@ p span {
 .main-item {
     width: calc(100% / 12 * 4 - 2%);
     margin-left: 2%;
+    margin-bottom: 5%;
 
 }
 
 .name {
-    margin-top: 5%;
+   
     
     padding-left: 3%;
     color: var(--mainColor);
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 500;
-    width: calc(100% / 3);
-    background-color: #E89B2B;
+    width: calc(100% / 2.5);
+    text-align: center;
+    background-color: #202021;
+    padding-top: 2%;
+  
 }
+
 
 .timetable {
     background-color: rgba(0, 0, 0, 0.25);
@@ -268,4 +295,138 @@ p span {
     font-size: 30px;
     margin-bottom: 10%;
     margin-top: 10%;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: space-around;
+    color: var(--mainColor);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 2%;
+    
+}
+
+.main-button1 {
+    background-color: var(--accentColor);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+}
+
+.main-button2 {
+    border: 1px solid var(--mainColor);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.border-timetable {
+    border-bottom: 5px solid rgba(255, 255, 255, 0.199);
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 7%;
+
+}
+
+.seeAll {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: end;
+    padding-top: 1%;
+    padding-bottom: 10%;
+}
+
+.seeAll-name {
+    color: rgba(255, 255, 255, 0.199);
+    font-size: 26px;
+    font-weight: 500;
+    margin-right: 1%;
+}
+
+.seeAll-icon {
+    width: 60px;
+
+}
+
+.footer-section {
+    background-image: url(images/background2.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.footer-overlay {
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 100%;
+}
+
+.footer-content {
+    color: var(--mainColor);
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5%;
+}
+
+.social-media-name {
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--mainColor);
+    padding-right: 1%;
+}
+
+.footer-icon {
+    width: 27px;
+    height: 17px;
+    padding-right: 1%;
+}
+
+.contacts-name-color, .contact-name {
+    color: var(--mainColor);
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.contact-name {
+    padding-bottom: 7%;
+}
+
+.contacts-name {
+    font-size: 28px;
+    padding-bottom: 7%;
+}
+
+.contacts-item {
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 2%;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7%;
+}
+
+.contacts-phone {
+    padding-right: 8.5%;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 4%;
+    line-height: 1.4;
+}
+
+.item-contact-address {
+    font-size: 18px;
+    padding-top: 5%;
 }
