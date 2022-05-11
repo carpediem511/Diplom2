@@ -20,6 +20,7 @@ html {
     color: var(--mainColor);
     padding-top: 5px;
     padding-bottom: 5px;
+    justify-content: center;
     margin: 0 auto; 
 }
 
@@ -84,7 +85,8 @@ p span {
     background-color: rgba(0, 0, 0, 0.637);
     height: 100%;
     width: calc(100% / 2.8);
-    margin-left: 13.5%;
+    margin-left: calc(100% / 6);
+    margin-top: 0;
 }
 
 .discount-section {
@@ -159,7 +161,6 @@ p span {
 
 .content {
     background-color: #202021;
-    
 }
 
 .content-main {
@@ -177,14 +178,14 @@ p span {
     font-size: 52px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.199);
-    padding-left: 20%;
+    padding-left: 18%;
     padding-top: 10%;
 }
 
 .title2 {
     color: var(--mainColor);
     font-size: 26px;
-    padding-left: 210px;
+    padding-left: 200px;
     top: 130px;
     position: absolute;
 }
@@ -194,49 +195,39 @@ p span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .backgroung1 {
-  
     background: linear-gradient(to top, #20202170 100%, transparent 100%), url(images/Rectangle9-2.png);
     height: 150px;
     padding-top: 39%;
-   
-   
 }
 
 .backgroung2 {
- 
     background: linear-gradient(to top, #20202170 100%, transparent 100%), url(images/Rectangle7-2.png);
     height: 150px;
     padding-top: 39%;
-    
 }
 
 .backgroung3 {
-   
     background: linear-gradient(to top, #20202170 100%, transparent 100%), url(images/Rectangle11-2.png);
     height: 150px;
     padding-top: 39%;
 }
 
 .backgroung4 {
-
     background: linear-gradient(to top, #20202170 100%, transparent 100%), url(images/Rectangle8-2.png);
     height: 150px;
     padding-top: 39%;
 }
 
 .backgroung5 {
- 
     background: linear-gradient(to top, #20202170 100%, transparent 100%), url(images/Rectangle10-2.png);
     height: 150px;
     padding-top: 39%;
 }
 
 .backgroung6 {
-   
     background: linear-gradient(to top, #20202170 100%, transparent 100%), url(images/Rectangle6-2.png);
     height: 150px;
     padding-top: 39%;
@@ -245,22 +236,15 @@ p span {
 .general {
     background-position: top;
     background-size: cover;
-
-
 }
-
-
 
 .main-item {
     width: calc(100% / 12 * 4 - 2%);
     margin-left: 2%;
     margin-bottom: 5%;
-
 }
 
 .name {
-   
-    
     padding-left: 3%;
     color: var(--mainColor);
     font-size: 24px;
@@ -269,9 +253,7 @@ p span {
     text-align: center;
     background-color: #202021;
     padding-top: 2%;
-  
 }
-
 
 .timetable {
     background-color: rgba(0, 0, 0, 0.25);
@@ -279,14 +261,11 @@ p span {
     padding-top: 3%;
     padding-left: 3%;
     padding-right: 3%;
-   
-    
 }
 
 .timetable-border {
     border: 1px solid var(--accentColor);
     margin-top: 3%;
-
 }
 
 .timetable-item {
@@ -304,7 +283,6 @@ p span {
     font-size: 20px;
     font-weight: 500;
     margin-top: 2%;
-    
 }
 
 .main-button1 {
@@ -329,7 +307,6 @@ p span {
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 7%;
-
 }
 
 .seeAll {
@@ -351,7 +328,6 @@ p span {
 
 .seeAll-icon {
     width: 60px;
-
 }
 
 .footer-section {
@@ -367,8 +343,8 @@ p span {
 
 .footer-content {
     color: var(--mainColor);
-    width: 100%;
     max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -397,13 +373,13 @@ p span {
     font-weight: 200;
 }
 
-.contact-name {
+.contact-name, .phone-name {
     padding-bottom: 7%;
 }
 
-.contacts-name {
+.contacts-name  {
     font-size: 28px;
-    padding-bottom: 7%;
+    padding-bottom: 3%;
 }
 
 .contacts-item {
@@ -416,17 +392,176 @@ p span {
     display: flex;
     justify-content: space-between;
     padding-bottom: 7%;
+    padding-top: 3%;
+}
+
+.contacts1 {
+    width: calc(100% / 12 *6);
+}
+
+.contacts2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: calc(100% / 12 * 6);
+    padding-right: 2%;
 }
 
 .contacts-phone {
-    padding-right: 8.5%;
     font-size: 18px;
     font-weight: 300;
-    padding-top: 4%;
     line-height: 1.4;
+}
+
+.phone-name {
+    font-size: 22px;
+    margin-top: 2%;
+    visibility: hidden;
 }
 
 .item-contact-address {
     font-size: 18px;
     padding-top: 5%;
+   
+}
+
+ @media (max-width: 1024px) {
+    .overlay {
+        margin-left: calc(100% / 10);
+    }
+
+    .navigation {
+        padding-left: 2%;
+    }
+
+    .title2 {
+        padding-left: 190px;
+        top: 130px;
+    }
+
+    .contacts1 {
+        padding-left: 2%;
+    }
+ }
+
+ @media (max-width: 768px) {
+    .navigation2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        flex-grow: 1;
+    }
+
+    .discount-photophone {
+        background-position: 70%;
+    }
+
+    .discount-name1 {
+        font-size: 42px;
+    }
+
+    .discount-text1 {
+        font-size: 16px;
+    }
+
+    .buttons {
+        font-size: 18px;
+    }
+
+    .discount-text2 {
+        font-size: 16px;
+    }
+
+    .title2 {
+        padding-left: 160px;
+        top: 100px;
+    }
+
+    .main-item {
+        width: calc(100% / 12 * 5);
+    }
+
+    .contacts1 {
+        padding-left: 2%;
+    }
+ }
+
+ @media (max-width: 600px) {
+    .navigation-name {
+        width: 100%;
+        margin-left: 25%;
+    }
+
+    p.navigation-name {
+        width: 100%;
+    }
+
+    .navigation-item {
+        width: calc(100% / 3);
+        padding-top: 5%;
+        padding-left: 2%;
+    }
+
+    .circle {
+        margin-top: 20%;
+    }
+
+    .overlay {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .discount-text2 span {
+        padding-left: 0;
+    }
+
+    .title2 {
+        padding-left: 100px;
+        top: 70px;
+    }
+
+    .main-item {
+        width: 70%;
+    }
+
+    .contacts {
+        font-size: 20px;
+        flex-wrap: wrap;
+    }
+
+    .social-media {
+        padding-bottom: 5%;
+    }
+
+    .social-media-name {
+        font-size: 16px;
+    }
+
+    .contacts-name {
+        font-size: 24px;
+    }
+
+    .contacts-item {
+        font-size: 20px;
+    }
+
+    .contacts1 {
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 2%;
+    }
+
+    .contacts2 {
+       width: 90%;
+       justify-content: space-between;
+       padding-top: 5%;
+       margin: 0 auto;
+    }
+
+    .contacts-phone {
+        padding-right: 2%;
+    }
+
+    .footer-icon {
+        width: 20px;
+    }
 }
