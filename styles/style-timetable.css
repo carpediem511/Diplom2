@@ -22,6 +22,7 @@ html {
     padding-bottom: 5px;
     justify-content: center;
     margin: 0 auto; 
+    text-align: center;
 }
 
 .navigation {
@@ -32,6 +33,16 @@ html {
 a {
     text-decoration: none;
     color: var(--mainColor);
+}
+
+a:hover {
+    background-image: linear-gradient(var(--mainColor) 0%, var(--mainColor) 0%), linear-gradient(var(--accentColor) 50%, var(--accentColor) 50%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 0 2px, 100% 2px;
+    color: var(--accentColor);
+    padding-bottom: 2px;
+    transition: .5s ease-in-out;
 }
 
 .navigation-name {
@@ -317,6 +328,7 @@ p span {
     justify-content: end;
     padding-top: 1%;
     padding-bottom: 10%;
+    border-style: solid;
 }
 
 .seeAll-name a {

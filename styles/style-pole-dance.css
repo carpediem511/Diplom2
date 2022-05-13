@@ -22,6 +22,7 @@ html, button {
     padding-bottom: 5px;
     justify-content: center;
     margin: 0 auto; 
+    text-align: center;
 }
 
 .navigation {
@@ -32,6 +33,16 @@ html, button {
 a {
     text-decoration: none;
     color: var(--mainColor);
+}
+
+a:hover {
+    background-image: linear-gradient(var(--mainColor) 0%, var(--mainColor) 0%), linear-gradient(var(--accentColor) 50%, var(--accentColor) 50%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 0 2px, 100% 2px;
+    color: var(--accentColor);
+    padding-bottom: 2px;
+    transition: .5s ease-in-out;
 }
 
 .navigation-name {
